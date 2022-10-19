@@ -40,8 +40,9 @@ class AsyncForm {
     const formData = new FormData(this.element);
     return Object.fromEntries(formData.entries())
   }
-  onSubmit(options){
+  onSubmit(options) {
   }
+  
   /**
    * Вызывает метод onSubmit и передаёт туда
    * данные, полученные из метода getData()
