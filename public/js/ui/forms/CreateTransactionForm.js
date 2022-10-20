@@ -16,7 +16,7 @@ class CreateTransactionForm extends AsyncForm {
    * Получает список счетов с помощью Account.list
    * Обновляет в форме всплывающего окна выпадающий список
    * */
-  renderAccountsList(){
+  renderAccountsList() {
     Account.list(null, (err, resp) => {
       if (resp && resp.success) {
         let select = this.element.querySelector(".accounts-select");

@@ -11,6 +11,12 @@
       "email": "lu_na87@mail.ru",
       "password": "yfnfif87",
       "id": "13spw4l6bgl9g04vl9"
+    },
+    {
+      "name": "Иван",
+      "email": "ivan@mail.ru",
+      "password": "yfnfif87",
+      "id": "13spw4l73sl9g0x209"
     }
   ],
   "accounts": [
@@ -28,16 +34,6 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
-    },
-    {
-      "name": "Альфа",
-      "user_id": "13spw4l6bgl9g04vl9",
-      "id": "13spw4l2gcl9g058l3"
-    },
-    {
-      "name": "Сбер",
-      "user_id": "13spw4l6bgl9g04vl9",
-      "id": "13spw4l5m4l9g07e6r"
     }
   ],
   "transactions": [
@@ -175,51 +171,6 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
-    },
-    {
-      "id": "13spw4l6fol9g06yba",
-      "type": "income",
-      "name": "Зарплата",
-      "sum": 50000,
-      "account_id": "13spw4l2gcl9g058l3",
-      "user_id": "13spw4l6bgl9g04vl9",
-      "created_at": "2022-10-19T19:04:30.261Z"
-    },
-    {
-      "id": "13spw4l6wkl9g07sik",
-      "type": "income",
-      "name": "Подарок",
-      "sum": 5000,
-      "account_id": "13spw4l5m4l9g07e6r",
-      "user_id": "13spw4l6bgl9g04vl9",
-      "created_at": "2022-10-19T19:05:09.403Z"
-    },
-    {
-      "id": "13spw4l38sl9g08089",
-      "type": "expense",
-      "name": "Магазин",
-      "sum": 5000,
-      "account_id": "13spw4l2gcl9g058l3",
-      "user_id": "13spw4l6bgl9g04vl9",
-      "created_at": "2022-10-19T19:05:19.400Z"
-    },
-    {
-      "id": "13spw4l6hsl9g08fjq",
-      "type": "expense",
-      "name": "Кредит",
-      "sum": 2000,
-      "account_id": "13spw4l5m4l9g07e6r",
-      "user_id": "13spw4l6bgl9g04vl9",
-      "created_at": "2022-10-19T19:05:39.253Z"
-    },
-    {
-      "id": "13spw4l2z4l9g08qf9",
-      "type": "expense",
-      "name": "Кафе",
-      "sum": 2500,
-      "account_id": "13spw4l5m4l9g07e6r",
-      "user_id": "13spw4l6bgl9g04vl9",
-      "created_at": "2022-10-19T19:05:53.348Z"
     }
   ]
 }
